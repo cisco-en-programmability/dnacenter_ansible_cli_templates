@@ -1,0 +1,8 @@
+
+project_name: Ansible_Project
+template_name: Ansible_Template
+device_name: PDX-RN
+cli_template: |
+  interface loopback200
+   description created_by_ansible
+   ip address 10.10.10.10 255.255.255.255
